@@ -7,8 +7,60 @@
 body {
     margin: 1rem;
     font-family: sans-serif;
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
+}
+
+li {
+    border-top: 1px solid #333;
+}
+
+li:first-child {
+    border-radius: 2rem;
+}
+
+li:first-child a {
+    border-radius: 2rem 2rem 0 0;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
+
+li a {
+    display: block;
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: wheat;
+}
+
+nav {
+    border: 2px #333 solid;
+    border-radius: 2rem;
+    margin: 0.5rem auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h1 {
+    border-bottom: 10px solid gold;
+    border-top: 10px solid gold;
+    margin: 0;
+    padding: 1rem;
+    font-size: 4rem;
+    background-color: lightcoral;
 }
